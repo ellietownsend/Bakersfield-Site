@@ -1,0 +1,182 @@
+
+#hero {
+    background-image: url("images/Bakersfield-Backdrop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    padding: 50px 0;
+}
+
+#intro-header {
+    color: #D2D2DF;
+    width: 585px;
+    height: 50px;
+    background-color: #B1905C;
+    padding: 10px 5px;
+    margin: 10px auto 10px;
+    font-family: "Ultra", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0 4px 4px black;
+    border-radius: 15px;
+    font-size: 45px;
+    box-shadow: 0 4px 4px black;
+}
+
+#quote {
+    font-size: 30px;
+    font-family: "Arizonia", cursive;
+    font-weight: 400;
+    font-style: normal; 
+    margin: 20px;
+    text-shadow: 0 1px 1px black;
+}
+
+#intro-header-2 {
+     font-family: "Bitter", serif;
+     font-style: normal;
+     font-weight:400;
+     width: 500px;
+     border-radius: 15px;
+     background-color: #352C25;
+     margin: 10px auto 80px;
+     padding: 15px 25px;
+     color:#D2D2DF;
+     font-size: 18px;
+}
+
+#intro-header:hover {
+    background-image: url(images/Bakersfield-oilrig.GIF);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.activities {
+    background-color: #1d1815;
+    padding: 20px 0;
+    color: #D2D2DF;
+}
+
+.three-activities{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#activities-intro {
+    margin: 10px auto;
+    text-align: center;
+    font-family: "Ultra", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 35px;
+}
+
+#hover-explanation {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#Fox-Theater {
+    background-image: url("images/foxtheater-img.jpg");
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 175px;
+    width: 175px;
+    box-shadow: 0 0px 10px #B1905C;
+}
+
+#Fox-Theater:hover {
+    background-image: url("/images/Fox.gif");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+#Bakersfield-Park {
+    background-image: url("images/Riverwalk-Park-img.jpg");
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 175px;
+    width: 175px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px #B1905C;
+}
+
+#Bakersfield-Park:hover {
+    background-image:url("images/park.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#Bakersfield-Downtown {
+    background-image: url("images/Downtown-Bakersfield-img.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    height: 175px;
+    width: 175px;
+    box-shadow: 0 0px 10px #B1905C;
+}
+
+#Bakersfield-Downtown:hover {
+    background-image: url("images/Downtown.gif");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.Activity-header,
+.Activity-Description {
+    margin: 20px auto;
+    max-width: 220px; /* optional: for better text alignment control */
+    text-align: center;
+}
+
+.Activity-header{
+    margin: 20px auto;
+    max-width: 220px; /* optional: for better text alignment control */
+    text-align: center;
+    font-size: 20px;
+    color: #D2D2DF;
+}
+
+a{
+   color: #D2D2DF; 
+}
+
+.Guide {
+    background-color: #624c34;
+    padding: 20px 0; 
+}
+
+#Card {
+    height: 400px;
+    width: 600px;
+    margin: 50px auto;
+    background-color: #967d63;
+    border-radius: 10px;
+    box-shadow: 0 6px 0 #352C25;
+    color: #352C25;
+    font-family: "Bitter", serif;
+    font-style: normal;
+    font-weight:400;
+    text-align:center;
+}
+
+#Profile-img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 3px solid #352C25;
+    border-radius: 10px;
+}
+
+
+
+
